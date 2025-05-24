@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Video.js M3U Player</title>
+    <title>TV OLAHRAGA</title>
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <style>
         body { font-family: sans-serif; display: flex; }
@@ -137,7 +137,7 @@
 
         // Muat daftar putar saat halaman dimuat
         document.addEventListener('DOMContentLoaded', () => {
-            const m3uFileUrl = 'https://m3u.ch/pl/cd8e2d1634dfe83005fe63ef0dd42b80_041c6e8c3108f442eb51569323302aa1.m3u'; // Ganti dengan path ke file M3U Anda
+            const m3uFileUrl = 'https://iptv-org.github.io/iptv/categories/sports.m3u'; // Ganti dengan path ke file M3U Anda
             loadM3UPlaylist(m3uFileUrl).then(videos => {
                 if (videos.length > 0) {
                     buildPlaylistUI(videos);
